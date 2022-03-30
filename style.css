@@ -1,0 +1,32 @@
+body {
+  font-size: 40px;
+  background-color: aliceblue;
+}
+
+.title {
+  text-align: center;
+}
+
+.button-area {
+  display: flex;
+  justify-content: center;
+}
+
+.selector {
+  font-size: large;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Open Sans", sans-serif;
+}
+
+.list-container h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.button-area input {
+  font-size: larger;
+}

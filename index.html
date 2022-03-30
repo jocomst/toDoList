@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h2 class="title">Add and delete items below</h2>
+    <div class="button-area">
+      <select class="selector" id="category">
+        <option value="chores">Chores</option>
+        <option value="selfcare">Selfcare</option>
+        <option value="misc">Misc</option>
+      </select>
+      <input class="new-list-item" type="text" />
+      <button class="receive-item">Submit new list item</button>
+    </div>
+    <div class="list-container">
+      <div class="list chores">
+        <h2>Chores</h2>
+        <ul class="unordered-list">
+          <li>Cook food</li>
+          <li>Clean house</li>
+          <li>Wash car</li>
+        </ul>
+      </div>
+      <div class="list selfcare">
+        <h2>Selfcare</h2>
+        <ul class="unordered-list">
+          <li>Take a bath</li>
+          <li>Burn incense</li>
+          <li>Journal</li>
+        </ul>
+      </div>
+      <div class="list misc">
+        <h2>Misc.</h2>
+        <ul class="unordered-list">
+          <li>Walk the dog</li>
+          <li>Play Basketball</li>
+          <li>See a movie</li>
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
